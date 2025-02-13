@@ -1,0 +1,1149 @@
+Date,Station,Delay Rate (%),Event Day
+2024-01-01,London Waterloo,55,No
+2024-01-01,London Paddington,11,No
+2024-01-01,London Euston,54,No
+2024-01-01,London Victoria,16,No
+2024-01-01,London Kings Cross,38,No
+2024-01-01,London Liverpool Street,10,No
+2024-01-01,London Bridge,13,No
+2024-01-01,Manchester Piccadilly,11,No
+2024-01-01,Birmingham New Street,13,No
+2024-01-01,Edinburgh Waverley,52,No
+2024-01-01,Glasgow Central,15,No
+2024-01-01,Leeds,33,No
+2024-01-01,Bristol Temple Meads,38,No
+2024-01-01,Cardiff Central,18,No
+2024-01-01,Liverpool Lime Street,57,No
+2024-01-01,Newcastle,50,No
+2024-01-01,Nottingham,25,No
+2024-01-01,Sheffield,40,No
+2024-01-01,Southampton Central,52,No
+2024-01-01,Reading,32,No
+2024-01-01,Brighton,30,No
+2024-01-01,York,16,No
+2024-01-01,Oxford,23,No
+2024-01-01,Cambridge,56,No
+2024-01-01,Leicester,32,No
+2024-01-01,Norwich,21,No
+2024-01-01,Exeter St Davids,48,No
+2024-01-01,Plymouth,21,No
+2024-01-02,London Waterloo,55,No
+2024-01-02,London Paddington,57,No
+2024-01-02,London Euston,57,No
+2024-01-02,London Victoria,58,No
+2024-01-02,London Kings Cross,32,No
+2024-01-02,London Liverpool Street,22,No
+2024-01-02,London Bridge,28,No
+2024-01-02,Manchester Piccadilly,42,No
+2024-01-02,Birmingham New Street,44,No
+2024-01-02,Edinburgh Waverley,30,No
+2024-01-02,Glasgow Central,39,No
+2024-01-02,Leeds,40,No
+2024-01-02,Bristol Temple Meads,46,No
+2024-01-02,Cardiff Central,44,No
+2024-01-02,Liverpool Lime Street,28,No
+2024-01-02,Newcastle,53,No
+2024-01-02,Nottingham,35,No
+2024-01-02,Sheffield,22,No
+2024-01-02,Southampton Central,56,No
+2024-01-02,Reading,10,No
+2024-01-02,Brighton,55,No
+2024-01-02,York,43,No
+2024-01-02,Oxford,21,No
+2024-01-02,Cambridge,20,No
+2024-01-02,Leicester,36,No
+2024-01-02,Norwich,49,No
+2024-01-02,Exeter St Davids,38,No
+2024-01-02,Plymouth,24,No
+2024-01-03,London Waterloo,21,No
+2024-01-03,London Paddington,29,No
+2024-01-03,London Euston,17,No
+2024-01-03,London Victoria,51,No
+2024-01-03,London Kings Cross,44,No
+2024-01-03,London Liverpool Street,37,No
+2024-01-03,London Bridge,41,No
+2024-01-03,Manchester Piccadilly,18,No
+2024-01-03,Birmingham New Street,19,No
+2024-01-03,Edinburgh Waverley,24,No
+2024-01-03,Glasgow Central,41,No
+2024-01-03,Leeds,37,No
+2024-01-03,Bristol Temple Meads,12,No
+2024-01-03,Cardiff Central,55,No
+2024-01-03,Liverpool Lime Street,25,No
+2024-01-03,Newcastle,26,No
+2024-01-03,Nottingham,48,No
+2024-01-03,Sheffield,59,No
+2024-01-03,Southampton Central,26,No
+2024-01-03,Reading,23,No
+2024-01-03,Brighton,51,No
+2024-01-03,York,29,No
+2024-01-03,Oxford,18,No
+2024-01-03,Cambridge,57,No
+2024-01-03,Leicester,60,No
+2024-01-03,Norwich,36,No
+2024-01-03,Exeter St Davids,21,No
+2024-01-03,Plymouth,59,No
+2024-01-04,London Waterloo,45,No
+2024-01-04,London Paddington,12,No
+2024-01-04,London Euston,25,No
+2024-01-04,London Victoria,38,No
+2024-01-04,London Kings Cross,31,No
+2024-01-04,London Liverpool Street,47,No
+2024-01-04,London Bridge,53,No
+2024-01-04,Manchester Piccadilly,29,No
+2024-01-04,Birmingham New Street,58,No
+2024-01-04,Edinburgh Waverley,55,No
+2024-01-04,Glasgow Central,52,No
+2024-01-04,Leeds,30,No
+2024-01-04,Bristol Temple Meads,31,No
+2024-01-04,Cardiff Central,36,No
+2024-01-04,Liverpool Lime Street,10,No
+2024-01-04,Newcastle,53,No
+2024-01-04,Nottingham,51,No
+2024-01-04,Sheffield,59,No
+2024-01-04,Southampton Central,35,No
+2024-01-04,Reading,35,No
+2024-01-04,Brighton,40,No
+2024-01-04,York,28,No
+2024-01-04,Oxford,23,No
+2024-01-04,Cambridge,40,No
+2024-01-04,Leicester,35,No
+2024-01-04,Norwich,32,No
+2024-01-04,Exeter St Davids,39,No
+2024-01-04,Plymouth,58,No
+2024-01-05,London Waterloo,16,No
+2024-01-05,London Paddington,28,No
+2024-01-05,London Euston,26,No
+2024-01-05,London Victoria,19,No
+2024-01-05,London Kings Cross,13,No
+2024-01-05,London Liverpool Street,49,No
+2024-01-05,London Bridge,28,No
+2024-01-05,Manchester Piccadilly,58,No
+2024-01-05,Birmingham New Street,34,No
+2024-01-05,Edinburgh Waverley,50,No
+2024-01-05,Glasgow Central,39,No
+2024-01-05,Leeds,23,No
+2024-01-05,Bristol Temple Meads,42,No
+2024-01-05,Cardiff Central,19,No
+2024-01-05,Liverpool Lime Street,12,No
+2024-01-05,Newcastle,32,No
+2024-01-05,Nottingham,55,No
+2024-01-05,Sheffield,30,No
+2024-01-05,Southampton Central,28,No
+2024-01-05,Reading,29,No
+2024-01-05,Brighton,20,No
+2024-01-05,York,43,No
+2024-01-05,Oxford,24,No
+2024-01-05,Cambridge,24,No
+2024-01-05,Leicester,35,No
+2024-01-05,Norwich,55,No
+2024-01-05,Exeter St Davids,30,No
+2024-01-05,Plymouth,15,No
+2024-01-06,London Waterloo,19,Yes
+2024-01-06,London Paddington,21,Yes
+2024-01-06,London Euston,49,Yes
+2024-01-06,London Victoria,36,Yes
+2024-01-06,London Kings Cross,41,Yes
+2024-01-06,London Liverpool Street,21,Yes
+2024-01-06,London Bridge,49,Yes
+2024-01-06,Manchester Piccadilly,35,Yes
+2024-01-06,Birmingham New Street,43,Yes
+2024-01-06,Edinburgh Waverley,47,Yes
+2024-01-06,Glasgow Central,17,Yes
+2024-01-06,Leeds,17,Yes
+2024-01-06,Bristol Temple Meads,41,Yes
+2024-01-06,Cardiff Central,16,Yes
+2024-01-06,Liverpool Lime Street,39,Yes
+2024-01-06,Newcastle,48,Yes
+2024-01-06,Nottingham,30,Yes
+2024-01-06,Sheffield,35,Yes
+2024-01-06,Southampton Central,14,Yes
+2024-01-06,Reading,56,Yes
+2024-01-06,Brighton,26,Yes
+2024-01-06,York,27,Yes
+2024-01-06,Oxford,39,Yes
+2024-01-06,Cambridge,38,Yes
+2024-01-06,Leicester,59,Yes
+2024-01-06,Norwich,20,Yes
+2024-01-06,Exeter St Davids,19,Yes
+2024-01-06,Plymouth,27,Yes
+2024-01-07,London Waterloo,53,No
+2024-01-07,London Paddington,20,No
+2024-01-07,London Euston,12,No
+2024-01-07,London Victoria,37,No
+2024-01-07,London Kings Cross,41,No
+2024-01-07,London Liverpool Street,24,No
+2024-01-07,London Bridge,43,No
+2024-01-07,Manchester Piccadilly,50,No
+2024-01-07,Birmingham New Street,37,No
+2024-01-07,Edinburgh Waverley,20,No
+2024-01-07,Glasgow Central,12,No
+2024-01-07,Leeds,16,No
+2024-01-07,Bristol Temple Meads,60,No
+2024-01-07,Cardiff Central,39,No
+2024-01-07,Liverpool Lime Street,21,No
+2024-01-07,Newcastle,60,No
+2024-01-07,Nottingham,19,No
+2024-01-07,Sheffield,16,No
+2024-01-07,Southampton Central,18,No
+2024-01-07,Reading,20,No
+2024-01-07,Brighton,46,No
+2024-01-07,York,38,No
+2024-01-07,Oxford,46,No
+2024-01-07,Cambridge,50,No
+2024-01-07,Leicester,13,No
+2024-01-07,Norwich,31,No
+2024-01-07,Exeter St Davids,22,No
+2024-01-07,Plymouth,33,No
+2024-01-08,London Waterloo,13,No
+2024-01-08,London Paddington,34,No
+2024-01-08,London Euston,13,No
+2024-01-08,London Victoria,52,No
+2024-01-08,London Kings Cross,33,No
+2024-01-08,London Liverpool Street,24,No
+2024-01-08,London Bridge,21,No
+2024-01-08,Manchester Piccadilly,51,No
+2024-01-08,Birmingham New Street,21,No
+2024-01-08,Edinburgh Waverley,34,No
+2024-01-08,Glasgow Central,17,No
+2024-01-08,Leeds,25,No
+2024-01-08,Bristol Temple Meads,37,No
+2024-01-08,Cardiff Central,13,No
+2024-01-08,Liverpool Lime Street,13,No
+2024-01-08,Newcastle,27,No
+2024-01-08,Nottingham,46,No
+2024-01-08,Sheffield,18,No
+2024-01-08,Southampton Central,43,No
+2024-01-08,Reading,10,No
+2024-01-08,Brighton,25,No
+2024-01-08,York,17,No
+2024-01-08,Oxford,29,No
+2024-01-08,Cambridge,56,No
+2024-01-08,Leicester,32,No
+2024-01-08,Norwich,34,No
+2024-01-08,Exeter St Davids,58,No
+2024-01-08,Plymouth,46,No
+2024-01-09,London Waterloo,31,No
+2024-01-09,London Paddington,15,No
+2024-01-09,London Euston,35,No
+2024-01-09,London Victoria,52,No
+2024-01-09,London Kings Cross,47,No
+2024-01-09,London Liverpool Street,54,No
+2024-01-09,London Bridge,41,No
+2024-01-09,Manchester Piccadilly,32,No
+2024-01-09,Birmingham New Street,40,No
+2024-01-09,Edinburgh Waverley,33,No
+2024-01-09,Glasgow Central,60,No
+2024-01-09,Leeds,31,No
+2024-01-09,Bristol Temple Meads,26,No
+2024-01-09,Cardiff Central,44,No
+2024-01-09,Liverpool Lime Street,19,No
+2024-01-09,Newcastle,57,No
+2024-01-09,Nottingham,39,No
+2024-01-09,Sheffield,55,No
+2024-01-09,Southampton Central,55,No
+2024-01-09,Reading,57,No
+2024-01-09,Brighton,31,No
+2024-01-09,York,58,No
+2024-01-09,Oxford,20,No
+2024-01-09,Cambridge,34,No
+2024-01-09,Leicester,56,No
+2024-01-09,Norwich,52,No
+2024-01-09,Exeter St Davids,34,No
+2024-01-09,Plymouth,45,No
+2024-01-10,London Waterloo,51,Yes
+2024-01-10,London Paddington,57,Yes
+2024-01-10,London Euston,38,Yes
+2024-01-10,London Victoria,35,Yes
+2024-01-10,London Kings Cross,43,Yes
+2024-01-10,London Liverpool Street,14,Yes
+2024-01-10,London Bridge,15,Yes
+2024-01-10,Manchester Piccadilly,40,Yes
+2024-01-10,Birmingham New Street,55,Yes
+2024-01-10,Edinburgh Waverley,49,Yes
+2024-01-10,Glasgow Central,50,Yes
+2024-01-10,Leeds,53,Yes
+2024-01-10,Bristol Temple Meads,34,Yes
+2024-01-10,Cardiff Central,25,Yes
+2024-01-10,Liverpool Lime Street,28,Yes
+2024-01-10,Newcastle,46,Yes
+2024-01-10,Nottingham,21,Yes
+2024-01-10,Sheffield,30,Yes
+2024-01-10,Southampton Central,33,Yes
+2024-01-10,Reading,30,Yes
+2024-01-10,Brighton,12,Yes
+2024-01-10,York,50,Yes
+2024-01-10,Oxford,47,Yes
+2024-01-10,Cambridge,17,Yes
+2024-01-10,Leicester,45,Yes
+2024-01-10,Norwich,35,Yes
+2024-01-10,Exeter St Davids,50,Yes
+2024-01-10,Plymouth,34,Yes
+2024-01-11,London Waterloo,47,Yes
+2024-01-11,London Paddington,59,Yes
+2024-01-11,London Euston,31,Yes
+2024-01-11,London Victoria,54,Yes
+2024-01-11,London Kings Cross,23,Yes
+2024-01-11,London Liverpool Street,37,Yes
+2024-01-11,London Bridge,29,Yes
+2024-01-11,Manchester Piccadilly,58,Yes
+2024-01-11,Birmingham New Street,38,Yes
+2024-01-11,Edinburgh Waverley,45,Yes
+2024-01-11,Glasgow Central,19,Yes
+2024-01-11,Leeds,44,Yes
+2024-01-11,Bristol Temple Meads,53,Yes
+2024-01-11,Cardiff Central,20,Yes
+2024-01-11,Liverpool Lime Street,11,Yes
+2024-01-11,Newcastle,60,Yes
+2024-01-11,Nottingham,36,Yes
+2024-01-11,Sheffield,15,Yes
+2024-01-11,Southampton Central,24,Yes
+2024-01-11,Reading,15,Yes
+2024-01-11,Brighton,21,Yes
+2024-01-11,York,43,Yes
+2024-01-11,Oxford,18,Yes
+2024-01-11,Cambridge,11,Yes
+2024-01-11,Leicester,46,Yes
+2024-01-11,Norwich,23,Yes
+2024-01-11,Exeter St Davids,55,Yes
+2024-01-11,Plymouth,33,Yes
+2024-01-12,London Waterloo,40,No
+2024-01-12,London Paddington,32,No
+2024-01-12,London Euston,12,No
+2024-01-12,London Victoria,38,No
+2024-01-12,London Kings Cross,31,No
+2024-01-12,London Liverpool Street,46,No
+2024-01-12,London Bridge,18,No
+2024-01-12,Manchester Piccadilly,57,No
+2024-01-12,Birmingham New Street,44,No
+2024-01-12,Edinburgh Waverley,36,No
+2024-01-12,Glasgow Central,12,No
+2024-01-12,Leeds,36,No
+2024-01-12,Bristol Temple Meads,45,No
+2024-01-12,Cardiff Central,41,No
+2024-01-12,Liverpool Lime Street,16,No
+2024-01-12,Newcastle,39,No
+2024-01-12,Nottingham,36,No
+2024-01-12,Sheffield,40,No
+2024-01-12,Southampton Central,22,No
+2024-01-12,Reading,38,No
+2024-01-12,Brighton,52,No
+2024-01-12,York,23,No
+2024-01-12,Oxford,33,No
+2024-01-12,Cambridge,55,No
+2024-01-12,Leicester,15,No
+2024-01-12,Norwich,46,No
+2024-01-12,Exeter St Davids,36,No
+2024-01-12,Plymouth,47,No
+2024-01-13,London Waterloo,51,No
+2024-01-13,London Paddington,50,No
+2024-01-13,London Euston,56,No
+2024-01-13,London Victoria,45,No
+2024-01-13,London Kings Cross,43,No
+2024-01-13,London Liverpool Street,55,No
+2024-01-13,London Bridge,10,No
+2024-01-13,Manchester Piccadilly,18,No
+2024-01-13,Birmingham New Street,29,No
+2024-01-13,Edinburgh Waverley,52,No
+2024-01-13,Glasgow Central,60,No
+2024-01-13,Leeds,37,No
+2024-01-13,Bristol Temple Meads,17,No
+2024-01-13,Cardiff Central,24,No
+2024-01-13,Liverpool Lime Street,54,No
+2024-01-13,Newcastle,58,No
+2024-01-13,Nottingham,18,No
+2024-01-13,Sheffield,24,No
+2024-01-13,Southampton Central,28,No
+2024-01-13,Reading,43,No
+2024-01-13,Brighton,52,No
+2024-01-13,York,20,No
+2024-01-13,Oxford,38,No
+2024-01-13,Cambridge,39,No
+2024-01-13,Leicester,26,No
+2024-01-13,Norwich,24,No
+2024-01-13,Exeter St Davids,33,No
+2024-01-13,Plymouth,44,No
+2024-01-14,London Waterloo,27,No
+2024-01-14,London Paddington,43,No
+2024-01-14,London Euston,25,No
+2024-01-14,London Victoria,18,No
+2024-01-14,London Kings Cross,27,No
+2024-01-14,London Liverpool Street,21,No
+2024-01-14,London Bridge,10,No
+2024-01-14,Manchester Piccadilly,25,No
+2024-01-14,Birmingham New Street,57,No
+2024-01-14,Edinburgh Waverley,33,No
+2024-01-14,Glasgow Central,43,No
+2024-01-14,Leeds,51,No
+2024-01-14,Bristol Temple Meads,47,No
+2024-01-14,Cardiff Central,60,No
+2024-01-14,Liverpool Lime Street,19,No
+2024-01-14,Newcastle,41,No
+2024-01-14,Nottingham,21,No
+2024-01-14,Sheffield,29,No
+2024-01-14,Southampton Central,37,No
+2024-01-14,Reading,10,No
+2024-01-14,Brighton,31,No
+2024-01-14,York,52,No
+2024-01-14,Oxford,48,No
+2024-01-14,Cambridge,54,No
+2024-01-14,Leicester,25,No
+2024-01-14,Norwich,31,No
+2024-01-14,Exeter St Davids,27,No
+2024-01-14,Plymouth,46,No
+2024-01-15,London Waterloo,60,No
+2024-01-15,London Paddington,37,No
+2024-01-15,London Euston,17,No
+2024-01-15,London Victoria,52,No
+2024-01-15,London Kings Cross,51,No
+2024-01-15,London Liverpool Street,57,No
+2024-01-15,London Bridge,25,No
+2024-01-15,Manchester Piccadilly,27,No
+2024-01-15,Birmingham New Street,49,No
+2024-01-15,Edinburgh Waverley,50,No
+2024-01-15,Glasgow Central,46,No
+2024-01-15,Leeds,36,No
+2024-01-15,Bristol Temple Meads,33,No
+2024-01-15,Cardiff Central,31,No
+2024-01-15,Liverpool Lime Street,10,No
+2024-01-15,Newcastle,11,No
+2024-01-15,Nottingham,59,No
+2024-01-15,Sheffield,15,No
+2024-01-15,Southampton Central,15,No
+2024-01-15,Reading,38,No
+2024-01-15,Brighton,25,No
+2024-01-15,York,32,No
+2024-01-15,Oxford,27,No
+2024-01-15,Cambridge,11,No
+2024-01-15,Leicester,14,No
+2024-01-15,Norwich,23,No
+2024-01-15,Exeter St Davids,47,No
+2024-01-15,Plymouth,22,No
+2024-01-16,London Waterloo,47,Yes
+2024-01-16,London Paddington,35,Yes
+2024-01-16,London Euston,32,Yes
+2024-01-16,London Victoria,29,Yes
+2024-01-16,London Kings Cross,33,Yes
+2024-01-16,London Liverpool Street,58,Yes
+2024-01-16,London Bridge,53,Yes
+2024-01-16,Manchester Piccadilly,59,Yes
+2024-01-16,Birmingham New Street,39,Yes
+2024-01-16,Edinburgh Waverley,50,Yes
+2024-01-16,Glasgow Central,58,Yes
+2024-01-16,Leeds,14,Yes
+2024-01-16,Bristol Temple Meads,34,Yes
+2024-01-16,Cardiff Central,31,Yes
+2024-01-16,Liverpool Lime Street,54,Yes
+2024-01-16,Newcastle,19,Yes
+2024-01-16,Nottingham,36,Yes
+2024-01-16,Sheffield,13,Yes
+2024-01-16,Southampton Central,42,Yes
+2024-01-16,Reading,60,Yes
+2024-01-16,Brighton,38,Yes
+2024-01-16,York,38,Yes
+2024-01-16,Oxford,56,Yes
+2024-01-16,Cambridge,40,Yes
+2024-01-16,Leicester,14,Yes
+2024-01-16,Norwich,33,Yes
+2024-01-16,Exeter St Davids,42,Yes
+2024-01-16,Plymouth,60,Yes
+2024-01-17,London Waterloo,54,No
+2024-01-17,London Paddington,21,No
+2024-01-17,London Euston,15,No
+2024-01-17,London Victoria,14,No
+2024-01-17,London Kings Cross,49,No
+2024-01-17,London Liverpool Street,24,No
+2024-01-17,London Bridge,55,No
+2024-01-17,Manchester Piccadilly,45,No
+2024-01-17,Birmingham New Street,29,No
+2024-01-17,Edinburgh Waverley,16,No
+2024-01-17,Glasgow Central,36,No
+2024-01-17,Leeds,52,No
+2024-01-17,Bristol Temple Meads,25,No
+2024-01-17,Cardiff Central,10,No
+2024-01-17,Liverpool Lime Street,58,No
+2024-01-17,Newcastle,29,No
+2024-01-17,Nottingham,42,No
+2024-01-17,Sheffield,38,No
+2024-01-17,Southampton Central,30,No
+2024-01-17,Reading,46,No
+2024-01-17,Brighton,28,No
+2024-01-17,York,25,No
+2024-01-17,Oxford,15,No
+2024-01-17,Cambridge,38,No
+2024-01-17,Leicester,31,No
+2024-01-17,Norwich,55,No
+2024-01-17,Exeter St Davids,14,No
+2024-01-17,Plymouth,22,No
+2024-01-18,London Waterloo,59,Yes
+2024-01-18,London Paddington,40,Yes
+2024-01-18,London Euston,22,Yes
+2024-01-18,London Victoria,23,Yes
+2024-01-18,London Kings Cross,17,Yes
+2024-01-18,London Liverpool Street,51,Yes
+2024-01-18,London Bridge,40,Yes
+2024-01-18,Manchester Piccadilly,50,Yes
+2024-01-18,Birmingham New Street,46,Yes
+2024-01-18,Edinburgh Waverley,25,Yes
+2024-01-18,Glasgow Central,37,Yes
+2024-01-18,Leeds,45,Yes
+2024-01-18,Bristol Temple Meads,57,Yes
+2024-01-18,Cardiff Central,54,Yes
+2024-01-18,Liverpool Lime Street,11,Yes
+2024-01-18,Newcastle,35,Yes
+2024-01-18,Nottingham,50,Yes
+2024-01-18,Sheffield,54,Yes
+2024-01-18,Southampton Central,12,Yes
+2024-01-18,Reading,36,Yes
+2024-01-18,Brighton,31,Yes
+2024-01-18,York,12,Yes
+2024-01-18,Oxford,26,Yes
+2024-01-18,Cambridge,49,Yes
+2024-01-18,Leicester,38,Yes
+2024-01-18,Norwich,37,Yes
+2024-01-18,Exeter St Davids,14,Yes
+2024-01-18,Plymouth,29,Yes
+2024-01-19,London Waterloo,21,Yes
+2024-01-19,London Paddington,14,Yes
+2024-01-19,London Euston,40,Yes
+2024-01-19,London Victoria,44,Yes
+2024-01-19,London Kings Cross,29,Yes
+2024-01-19,London Liverpool Street,54,Yes
+2024-01-19,London Bridge,56,Yes
+2024-01-19,Manchester Piccadilly,51,Yes
+2024-01-19,Birmingham New Street,42,Yes
+2024-01-19,Edinburgh Waverley,35,Yes
+2024-01-19,Glasgow Central,59,Yes
+2024-01-19,Leeds,55,Yes
+2024-01-19,Bristol Temple Meads,51,Yes
+2024-01-19,Cardiff Central,19,Yes
+2024-01-19,Liverpool Lime Street,27,Yes
+2024-01-19,Newcastle,17,Yes
+2024-01-19,Nottingham,22,Yes
+2024-01-19,Sheffield,18,Yes
+2024-01-19,Southampton Central,40,Yes
+2024-01-19,Reading,58,Yes
+2024-01-19,Brighton,52,Yes
+2024-01-19,York,53,Yes
+2024-01-19,Oxford,25,Yes
+2024-01-19,Cambridge,56,Yes
+2024-01-19,Leicester,23,Yes
+2024-01-19,Norwich,53,Yes
+2024-01-19,Exeter St Davids,18,Yes
+2024-01-19,Plymouth,35,Yes
+2024-01-20,London Waterloo,38,No
+2024-01-20,London Paddington,16,No
+2024-01-20,London Euston,34,No
+2024-01-20,London Victoria,23,No
+2024-01-20,London Kings Cross,36,No
+2024-01-20,London Liverpool Street,59,No
+2024-01-20,London Bridge,10,No
+2024-01-20,Manchester Piccadilly,48,No
+2024-01-20,Birmingham New Street,32,No
+2024-01-20,Edinburgh Waverley,27,No
+2024-01-20,Glasgow Central,43,No
+2024-01-20,Leeds,58,No
+2024-01-20,Bristol Temple Meads,23,No
+2024-01-20,Cardiff Central,52,No
+2024-01-20,Liverpool Lime Street,21,No
+2024-01-20,Newcastle,42,No
+2024-01-20,Nottingham,42,No
+2024-01-20,Sheffield,46,No
+2024-01-20,Southampton Central,37,No
+2024-01-20,Reading,23,No
+2024-01-20,Brighton,40,No
+2024-01-20,York,50,No
+2024-01-20,Oxford,18,No
+2024-01-20,Cambridge,22,No
+2024-01-20,Leicester,58,No
+2024-01-20,Norwich,17,No
+2024-01-20,Exeter St Davids,34,No
+2024-01-20,Plymouth,37,No
+2024-01-21,London Waterloo,48,No
+2024-01-21,London Paddington,52,No
+2024-01-21,London Euston,51,No
+2024-01-21,London Victoria,31,No
+2024-01-21,London Kings Cross,23,No
+2024-01-21,London Liverpool Street,49,No
+2024-01-21,London Bridge,43,No
+2024-01-21,Manchester Piccadilly,17,No
+2024-01-21,Birmingham New Street,36,No
+2024-01-21,Edinburgh Waverley,58,No
+2024-01-21,Glasgow Central,27,No
+2024-01-21,Leeds,26,No
+2024-01-21,Bristol Temple Meads,47,No
+2024-01-21,Cardiff Central,11,No
+2024-01-21,Liverpool Lime Street,55,No
+2024-01-21,Newcastle,49,No
+2024-01-21,Nottingham,60,No
+2024-01-21,Sheffield,17,No
+2024-01-21,Southampton Central,10,No
+2024-01-21,Reading,25,No
+2024-01-21,Brighton,19,No
+2024-01-21,York,32,No
+2024-01-21,Oxford,60,No
+2024-01-21,Cambridge,46,No
+2024-01-21,Leicester,42,No
+2024-01-21,Norwich,52,No
+2024-01-21,Exeter St Davids,12,No
+2024-01-21,Plymouth,48,No
+2024-01-22,London Waterloo,29,No
+2024-01-22,London Paddington,41,No
+2024-01-22,London Euston,37,No
+2024-01-22,London Victoria,26,No
+2024-01-22,London Kings Cross,57,No
+2024-01-22,London Liverpool Street,21,No
+2024-01-22,London Bridge,37,No
+2024-01-22,Manchester Piccadilly,15,No
+2024-01-22,Birmingham New Street,36,No
+2024-01-22,Edinburgh Waverley,35,No
+2024-01-22,Glasgow Central,52,No
+2024-01-22,Leeds,46,No
+2024-01-22,Bristol Temple Meads,58,No
+2024-01-22,Cardiff Central,56,No
+2024-01-22,Liverpool Lime Street,14,No
+2024-01-22,Newcastle,27,No
+2024-01-22,Nottingham,41,No
+2024-01-22,Sheffield,53,No
+2024-01-22,Southampton Central,26,No
+2024-01-22,Reading,23,No
+2024-01-22,Brighton,26,No
+2024-01-22,York,30,No
+2024-01-22,Oxford,48,No
+2024-01-22,Cambridge,34,No
+2024-01-22,Leicester,16,No
+2024-01-22,Norwich,24,No
+2024-01-22,Exeter St Davids,41,No
+2024-01-22,Plymouth,42,No
+2024-01-23,London Waterloo,56,No
+2024-01-23,London Paddington,54,No
+2024-01-23,London Euston,58,No
+2024-01-23,London Victoria,54,No
+2024-01-23,London Kings Cross,48,No
+2024-01-23,London Liverpool Street,28,No
+2024-01-23,London Bridge,36,No
+2024-01-23,Manchester Piccadilly,15,No
+2024-01-23,Birmingham New Street,32,No
+2024-01-23,Edinburgh Waverley,60,No
+2024-01-23,Glasgow Central,45,No
+2024-01-23,Leeds,28,No
+2024-01-23,Bristol Temple Meads,18,No
+2024-01-23,Cardiff Central,43,No
+2024-01-23,Liverpool Lime Street,14,No
+2024-01-23,Newcastle,48,No
+2024-01-23,Nottingham,19,No
+2024-01-23,Sheffield,11,No
+2024-01-23,Southampton Central,12,No
+2024-01-23,Reading,38,No
+2024-01-23,Brighton,18,No
+2024-01-23,York,24,No
+2024-01-23,Oxford,25,No
+2024-01-23,Cambridge,13,No
+2024-01-23,Leicester,45,No
+2024-01-23,Norwich,16,No
+2024-01-23,Exeter St Davids,12,No
+2024-01-23,Plymouth,58,No
+2024-01-24,London Waterloo,59,No
+2024-01-24,London Paddington,48,No
+2024-01-24,London Euston,23,No
+2024-01-24,London Victoria,12,No
+2024-01-24,London Kings Cross,13,No
+2024-01-24,London Liverpool Street,28,No
+2024-01-24,London Bridge,12,No
+2024-01-24,Manchester Piccadilly,43,No
+2024-01-24,Birmingham New Street,13,No
+2024-01-24,Edinburgh Waverley,27,No
+2024-01-24,Glasgow Central,46,No
+2024-01-24,Leeds,10,No
+2024-01-24,Bristol Temple Meads,28,No
+2024-01-24,Cardiff Central,12,No
+2024-01-24,Liverpool Lime Street,58,No
+2024-01-24,Newcastle,14,No
+2024-01-24,Nottingham,32,No
+2024-01-24,Sheffield,14,No
+2024-01-24,Southampton Central,56,No
+2024-01-24,Reading,46,No
+2024-01-24,Brighton,35,No
+2024-01-24,York,55,No
+2024-01-24,Oxford,54,No
+2024-01-24,Cambridge,53,No
+2024-01-24,Leicester,60,No
+2024-01-24,Norwich,36,No
+2024-01-24,Exeter St Davids,25,No
+2024-01-24,Plymouth,30,No
+2024-01-25,London Waterloo,23,No
+2024-01-25,London Paddington,13,No
+2024-01-25,London Euston,12,No
+2024-01-25,London Victoria,21,No
+2024-01-25,London Kings Cross,29,No
+2024-01-25,London Liverpool Street,52,No
+2024-01-25,London Bridge,37,No
+2024-01-25,Manchester Piccadilly,47,No
+2024-01-25,Birmingham New Street,38,No
+2024-01-25,Edinburgh Waverley,60,No
+2024-01-25,Glasgow Central,50,No
+2024-01-25,Leeds,23,No
+2024-01-25,Bristol Temple Meads,38,No
+2024-01-25,Cardiff Central,18,No
+2024-01-25,Liverpool Lime Street,57,No
+2024-01-25,Newcastle,36,No
+2024-01-25,Nottingham,54,No
+2024-01-25,Sheffield,23,No
+2024-01-25,Southampton Central,14,No
+2024-01-25,Reading,25,No
+2024-01-25,Brighton,15,No
+2024-01-25,York,32,No
+2024-01-25,Oxford,40,No
+2024-01-25,Cambridge,10,No
+2024-01-25,Leicester,36,No
+2024-01-25,Norwich,51,No
+2024-01-25,Exeter St Davids,20,No
+2024-01-25,Plymouth,49,No
+2024-01-26,London Waterloo,28,No
+2024-01-26,London Paddington,59,No
+2024-01-26,London Euston,13,No
+2024-01-26,London Victoria,48,No
+2024-01-26,London Kings Cross,25,No
+2024-01-26,London Liverpool Street,25,No
+2024-01-26,London Bridge,15,No
+2024-01-26,Manchester Piccadilly,12,No
+2024-01-26,Birmingham New Street,55,No
+2024-01-26,Edinburgh Waverley,26,No
+2024-01-26,Glasgow Central,22,No
+2024-01-26,Leeds,57,No
+2024-01-26,Bristol Temple Meads,57,No
+2024-01-26,Cardiff Central,32,No
+2024-01-26,Liverpool Lime Street,20,No
+2024-01-26,Newcastle,26,No
+2024-01-26,Nottingham,28,No
+2024-01-26,Sheffield,15,No
+2024-01-26,Southampton Central,57,No
+2024-01-26,Reading,34,No
+2024-01-26,Brighton,32,No
+2024-01-26,York,21,No
+2024-01-26,Oxford,18,No
+2024-01-26,Cambridge,16,No
+2024-01-26,Leicester,54,No
+2024-01-26,Norwich,55,No
+2024-01-26,Exeter St Davids,27,No
+2024-01-26,Plymouth,28,No
+2024-01-27,London Waterloo,19,No
+2024-01-27,London Paddington,23,No
+2024-01-27,London Euston,30,No
+2024-01-27,London Victoria,47,No
+2024-01-27,London Kings Cross,52,No
+2024-01-27,London Liverpool Street,38,No
+2024-01-27,London Bridge,38,No
+2024-01-27,Manchester Piccadilly,39,No
+2024-01-27,Birmingham New Street,59,No
+2024-01-27,Edinburgh Waverley,24,No
+2024-01-27,Glasgow Central,27,No
+2024-01-27,Leeds,35,No
+2024-01-27,Bristol Temple Meads,39,No
+2024-01-27,Cardiff Central,56,No
+2024-01-27,Liverpool Lime Street,16,No
+2024-01-27,Newcastle,58,No
+2024-01-27,Nottingham,19,No
+2024-01-27,Sheffield,35,No
+2024-01-27,Southampton Central,58,No
+2024-01-27,Reading,16,No
+2024-01-27,Brighton,47,No
+2024-01-27,York,53,No
+2024-01-27,Oxford,17,No
+2024-01-27,Cambridge,40,No
+2024-01-27,Leicester,60,No
+2024-01-27,Norwich,39,No
+2024-01-27,Exeter St Davids,51,No
+2024-01-27,Plymouth,29,No
+2024-01-28,London Waterloo,47,No
+2024-01-28,London Paddington,33,No
+2024-01-28,London Euston,38,No
+2024-01-28,London Victoria,15,No
+2024-01-28,London Kings Cross,13,No
+2024-01-28,London Liverpool Street,50,No
+2024-01-28,London Bridge,20,No
+2024-01-28,Manchester Piccadilly,56,No
+2024-01-28,Birmingham New Street,20,No
+2024-01-28,Edinburgh Waverley,40,No
+2024-01-28,Glasgow Central,56,No
+2024-01-28,Leeds,58,No
+2024-01-28,Bristol Temple Meads,39,No
+2024-01-28,Cardiff Central,59,No
+2024-01-28,Liverpool Lime Street,25,No
+2024-01-28,Newcastle,57,No
+2024-01-28,Nottingham,50,No
+2024-01-28,Sheffield,54,No
+2024-01-28,Southampton Central,16,No
+2024-01-28,Reading,35,No
+2024-01-28,Brighton,43,No
+2024-01-28,York,31,No
+2024-01-28,Oxford,52,No
+2024-01-28,Cambridge,47,No
+2024-01-28,Leicester,55,No
+2024-01-28,Norwich,51,No
+2024-01-28,Exeter St Davids,20,No
+2024-01-28,Plymouth,47,No
+2024-01-29,London Waterloo,12,Yes
+2024-01-29,London Paddington,33,Yes
+2024-01-29,London Euston,31,Yes
+2024-01-29,London Victoria,49,Yes
+2024-01-29,London Kings Cross,24,Yes
+2024-01-29,London Liverpool Street,33,Yes
+2024-01-29,London Bridge,54,Yes
+2024-01-29,Manchester Piccadilly,15,Yes
+2024-01-29,Birmingham New Street,55,Yes
+2024-01-29,Edinburgh Waverley,59,Yes
+2024-01-29,Glasgow Central,11,Yes
+2024-01-29,Leeds,18,Yes
+2024-01-29,Bristol Temple Meads,29,Yes
+2024-01-29,Cardiff Central,22,Yes
+2024-01-29,Liverpool Lime Street,15,Yes
+2024-01-29,Newcastle,51,Yes
+2024-01-29,Nottingham,30,Yes
+2024-01-29,Sheffield,52,Yes
+2024-01-29,Southampton Central,16,Yes
+2024-01-29,Reading,19,Yes
+2024-01-29,Brighton,28,Yes
+2024-01-29,York,54,Yes
+2024-01-29,Oxford,36,Yes
+2024-01-29,Cambridge,27,Yes
+2024-01-29,Leicester,32,Yes
+2024-01-29,Norwich,27,Yes
+2024-01-29,Exeter St Davids,48,Yes
+2024-01-29,Plymouth,45,Yes
+2024-01-30,London Waterloo,13,No
+2024-01-30,London Paddington,59,No
+2024-01-30,London Euston,44,No
+2024-01-30,London Victoria,44,No
+2024-01-30,London Kings Cross,21,No
+2024-01-30,London Liverpool Street,12,No
+2024-01-30,London Bridge,41,No
+2024-01-30,Manchester Piccadilly,42,No
+2024-01-30,Birmingham New Street,50,No
+2024-01-30,Edinburgh Waverley,43,No
+2024-01-30,Glasgow Central,23,No
+2024-01-30,Leeds,16,No
+2024-01-30,Bristol Temple Meads,53,No
+2024-01-30,Cardiff Central,42,No
+2024-01-30,Liverpool Lime Street,48,No
+2024-01-30,Newcastle,42,No
+2024-01-30,Nottingham,15,No
+2024-01-30,Sheffield,12,No
+2024-01-30,Southampton Central,35,No
+2024-01-30,Reading,19,No
+2024-01-30,Brighton,30,No
+2024-01-30,York,55,No
+2024-01-30,Oxford,23,No
+2024-01-30,Cambridge,16,No
+2024-01-30,Leicester,38,No
+2024-01-30,Norwich,18,No
+2024-01-30,Exeter St Davids,45,No
+2024-01-30,Plymouth,51,No
+2024-01-31,London Waterloo,31,No
+2024-01-31,London Paddington,27,No
+2024-01-31,London Euston,59,No
+2024-01-31,London Victoria,33,No
+2024-01-31,London Kings Cross,33,No
+2024-01-31,London Liverpool Street,33,No
+2024-01-31,London Bridge,11,No
+2024-01-31,Manchester Piccadilly,54,No
+2024-01-31,Birmingham New Street,31,No
+2024-01-31,Edinburgh Waverley,31,No
+2024-01-31,Glasgow Central,28,No
+2024-01-31,Leeds,11,No
+2024-01-31,Bristol Temple Meads,26,No
+2024-01-31,Cardiff Central,41,No
+2024-01-31,Liverpool Lime Street,53,No
+2024-01-31,Newcastle,24,No
+2024-01-31,Nottingham,25,No
+2024-01-31,Sheffield,54,No
+2024-01-31,Southampton Central,42,No
+2024-01-31,Reading,41,No
+2024-01-31,Brighton,39,No
+2024-01-31,York,53,No
+2024-01-31,Oxford,46,No
+2024-01-31,Cambridge,39,No
+2024-01-31,Leicester,12,No
+2024-01-31,Norwich,11,No
+2024-01-31,Exeter St Davids,14,No
+2024-01-31,Plymouth,58,No
+2024-02-01,London Waterloo,37,Yes
+2024-02-01,London Paddington,11,Yes
+2024-02-01,London Euston,49,Yes
+2024-02-01,London Victoria,60,Yes
+2024-02-01,London Kings Cross,44,Yes
+2024-02-01,London Liverpool Street,20,Yes
+2024-02-01,London Bridge,49,Yes
+2024-02-01,Manchester Piccadilly,24,Yes
+2024-02-01,Birmingham New Street,37,Yes
+2024-02-01,Edinburgh Waverley,29,Yes
+2024-02-01,Glasgow Central,33,Yes
+2024-02-01,Leeds,27,Yes
+2024-02-01,Bristol Temple Meads,53,Yes
+2024-02-01,Cardiff Central,55,Yes
+2024-02-01,Liverpool Lime Street,52,Yes
+2024-02-01,Newcastle,51,Yes
+2024-02-01,Nottingham,14,Yes
+2024-02-01,Sheffield,60,Yes
+2024-02-01,Southampton Central,58,Yes
+2024-02-01,Reading,29,Yes
+2024-02-01,Brighton,18,Yes
+2024-02-01,York,14,Yes
+2024-02-01,Oxford,34,Yes
+2024-02-01,Cambridge,43,Yes
+2024-02-01,Leicester,32,Yes
+2024-02-01,Norwich,24,Yes
+2024-02-01,Exeter St Davids,37,Yes
+2024-02-01,Plymouth,54,Yes
+2024-02-02,London Waterloo,33,No
+2024-02-02,London Paddington,36,No
+2024-02-02,London Euston,52,No
+2024-02-02,London Victoria,35,No
+2024-02-02,London Kings Cross,14,No
+2024-02-02,London Liverpool Street,41,No
+2024-02-02,London Bridge,51,No
+2024-02-02,Manchester Piccadilly,45,No
+2024-02-02,Birmingham New Street,55,No
+2024-02-02,Edinburgh Waverley,22,No
+2024-02-02,Glasgow Central,48,No
+2024-02-02,Leeds,38,No
+2024-02-02,Bristol Temple Meads,39,No
+2024-02-02,Cardiff Central,32,No
+2024-02-02,Liverpool Lime Street,46,No
+2024-02-02,Newcastle,57,No
+2024-02-02,Nottingham,37,No
+2024-02-02,Sheffield,15,No
+2024-02-02,Southampton Central,43,No
+2024-02-02,Reading,34,No
+2024-02-02,Brighton,15,No
+2024-02-02,York,19,No
+2024-02-02,Oxford,60,No
+2024-02-02,Cambridge,18,No
+2024-02-02,Leicester,29,No
+2024-02-02,Norwich,30,No
+2024-02-02,Exeter St Davids,46,No
+2024-02-02,Plymouth,37,No
+2024-02-03,London Waterloo,12,No
+2024-02-03,London Paddington,56,No
+2024-02-03,London Euston,11,No
+2024-02-03,London Victoria,45,No
+2024-02-03,London Kings Cross,26,No
+2024-02-03,London Liverpool Street,11,No
+2024-02-03,London Bridge,16,No
+2024-02-03,Manchester Piccadilly,51,No
+2024-02-03,Birmingham New Street,20,No
+2024-02-03,Edinburgh Waverley,48,No
+2024-02-03,Glasgow Central,42,No
+2024-02-03,Leeds,37,No
+2024-02-03,Bristol Temple Meads,52,No
+2024-02-03,Cardiff Central,43,No
+2024-02-03,Liverpool Lime Street,43,No
+2024-02-03,Newcastle,44,No
+2024-02-03,Nottingham,27,No
+2024-02-03,Sheffield,18,No
+2024-02-03,Southampton Central,24,No
+2024-02-03,Reading,32,No
+2024-02-03,Brighton,36,No
+2024-02-03,York,27,No
+2024-02-03,Oxford,18,No
+2024-02-03,Cambridge,18,No
+2024-02-03,Leicester,59,No
+2024-02-03,Norwich,17,No
+2024-02-03,Exeter St Davids,38,No
+2024-02-03,Plymouth,18,No
+2024-02-04,London Waterloo,57,No
+2024-02-04,London Paddington,49,No
+2024-02-04,London Euston,21,No
+2024-02-04,London Victoria,55,No
+2024-02-04,London Kings Cross,18,No
+2024-02-04,London Liverpool Street,41,No
+2024-02-04,London Bridge,15,No
+2024-02-04,Manchester Piccadilly,31,No
+2024-02-04,Birmingham New Street,17,No
+2024-02-04,Edinburgh Waverley,29,No
+2024-02-04,Glasgow Central,43,No
+2024-02-04,Leeds,48,No
+2024-02-04,Bristol Temple Meads,24,No
+2024-02-04,Cardiff Central,50,No
+2024-02-04,Liverpool Lime Street,33,No
+2024-02-04,Newcastle,16,No
+2024-02-04,Nottingham,54,No
+2024-02-04,Sheffield,47,No
+2024-02-04,Southampton Central,53,No
+2024-02-04,Reading,31,No
+2024-02-04,Brighton,18,No
+2024-02-04,York,53,No
+2024-02-04,Oxford,29,No
+2024-02-04,Cambridge,46,No
+2024-02-04,Leicester,19,No
+2024-02-04,Norwich,39,No
+2024-02-04,Exeter St Davids,23,No
+2024-02-04,Plymouth,42,No
+2024-02-05,London Waterloo,22,No
+2024-02-05,London Paddington,60,No
+2024-02-05,London Euston,59,No
+2024-02-05,London Victoria,48,No
+2024-02-05,London Kings Cross,42,No
+2024-02-05,London Liverpool Street,30,No
+2024-02-05,London Bridge,16,No
+2024-02-05,Manchester Piccadilly,32,No
+2024-02-05,Birmingham New Street,18,No
+2024-02-05,Edinburgh Waverley,46,No
+2024-02-05,Glasgow Central,41,No
+2024-02-05,Leeds,33,No
+2024-02-05,Bristol Temple Meads,23,No
+2024-02-05,Cardiff Central,56,No
+2024-02-05,Liverpool Lime Street,18,No
+2024-02-05,Newcastle,39,No
+2024-02-05,Nottingham,27,No
+2024-02-05,Sheffield,38,No
+2024-02-05,Southampton Central,56,No
+2024-02-05,Reading,34,No
+2024-02-05,Brighton,44,No
+2024-02-05,York,38,No
+2024-02-05,Oxford,59,No
+2024-02-05,Cambridge,34,No
+2024-02-05,Leicester,56,No
+2024-02-05,Norwich,46,No
+2024-02-05,Exeter St Davids,43,No
+2024-02-05,Plymouth,39,No
+2024-02-06,London Waterloo,52,Yes
+2024-02-06,London Paddington,18,Yes
+2024-02-06,London Euston,54,Yes
+2024-02-06,London Victoria,22,Yes
+2024-02-06,London Kings Cross,26,Yes
+2024-02-06,London Liverpool Street,42,Yes
+2024-02-06,London Bridge,34,Yes
+2024-02-06,Manchester Piccadilly,18,Yes
+2024-02-06,Birmingham New Street,47,Yes
+2024-02-06,Edinburgh Waverley,16,Yes
+2024-02-06,Glasgow Central,45,Yes
+2024-02-06,Leeds,15,Yes
+2024-02-06,Bristol Temple Meads,34,Yes
+2024-02-06,Cardiff Central,50,Yes
+2024-02-06,Liverpool Lime Street,54,Yes
+2024-02-06,Newcastle,22,Yes
+2024-02-06,Nottingham,15,Yes
+2024-02-06,Sheffield,60,Yes
+2024-02-06,Southampton Central,48,Yes
+2024-02-06,Reading,22,Yes
+2024-02-06,Brighton,59,Yes
+2024-02-06,York,17,Yes
+2024-02-06,Oxford,46,Yes
+2024-02-06,Cambridge,32,Yes
+2024-02-06,Leicester,43,Yes
+2024-02-06,Norwich,54,Yes
+2024-02-06,Exeter St Davids,22,Yes
+2024-02-06,Plymouth,55,Yes
+2024-02-07,London Waterloo,53,No
+2024-02-07,London Paddington,58,No
+2024-02-07,London Euston,23,No
+2024-02-07,London Victoria,58,No
+2024-02-07,London Kings Cross,12,No
+2024-02-07,London Liverpool Street,58,No
+2024-02-07,London Bridge,36,No
+2024-02-07,Manchester Piccadilly,41,No
+2024-02-07,Birmingham New Street,49,No
+2024-02-07,Edinburgh Waverley,12,No
+2024-02-07,Glasgow Central,17,No
+2024-02-07,Leeds,42,No
+2024-02-07,Bristol Temple Meads,36,No
+2024-02-07,Cardiff Central,25,No
+2024-02-07,Liverpool Lime Street,36,No
+2024-02-07,Newcastle,20,No
+2024-02-07,Nottingham,56,No
+2024-02-07,Sheffield,11,No
+2024-02-07,Southampton Central,15,No
+2024-02-07,Reading,23,No
+2024-02-07,Brighton,30,No
+2024-02-07,York,33,No
+2024-02-07,Oxford,16,No
+2024-02-07,Cambridge,49,No
+2024-02-07,Leicester,35,No
+2024-02-07,Norwich,20,No
+2024-02-07,Exeter St Davids,41,No
+2024-02-07,Plymouth,14,No
+2024-02-08,London Waterloo,45,No
+2024-02-08,London Paddington,45,No
+2024-02-08,London Euston,40,No
+2024-02-08,London Victoria,52,No
+2024-02-08,London Kings Cross,41,No
+2024-02-08,London Liverpool Street,35,No
+2024-02-08,London Bridge,25,No
+2024-02-08,Manchester Piccadilly,11,No
+2024-02-08,Birmingham New Street,56,No
+2024-02-08,Edinburgh Waverley,23,No
+2024-02-08,Glasgow Central,17,No
+2024-02-08,Leeds,41,No
+2024-02-08,Bristol Temple Meads,29,No
+2024-02-08,Cardiff Central,33,No
+2024-02-08,Liverpool Lime Street,57,No
+2024-02-08,Newcastle,56,No
+2024-02-08,Nottingham,45,No
+2024-02-08,Sheffield,53,No
+2024-02-08,Southampton Central,39,No
+2024-02-08,Reading,50,No
+2024-02-08,Brighton,21,No
+2024-02-08,York,53,No
+2024-02-08,Oxford,17,No
+2024-02-08,Cambridge,53,No
+2024-02-08,Leicester,47,No
+2024-02-08,Norwich,30,No
+2024-02-08,Exeter St Davids,39,No
+2024-02-08,Plymouth,20,No
+2024-02-09,London Waterloo,27,No
+2024-02-09,London Paddington,34,No
+2024-02-09,London Euston,36,No
+2024-02-09,London Victoria,21,No
+2024-02-09,London Kings Cross,37,No
+2024-02-09,London Liverpool Street,13,No
+2024-02-09,London Bridge,33,No
+2024-02-09,Manchester Piccadilly,51,No
+2024-02-09,Birmingham New Street,16,No
+2024-02-09,Edinburgh Waverley,36,No
+2024-02-09,Glasgow Central,39,No
+2024-02-09,Leeds,39,No
+2024-02-09,Bristol Temple Meads,45,No
+2024-02-09,Cardiff Central,54,No
+2024-02-09,Liverpool Lime Street,23,No
+2024-02-09,Newcastle,18,No
+2024-02-09,Nottingham,32,No
+2024-02-09,Sheffield,10,No
+2024-02-09,Southampton Central,27,No
+2024-02-09,Reading,12,No
+2024-02-09,Brighton,39,No
+2024-02-09,York,29,No
+2024-02-09,Oxford,57,No
+2024-02-09,Cambridge,13,No
+2024-02-09,Leicester,23,No
+2024-02-09,Norwich,37,No
+2024-02-09,Exeter St Davids,40,No
+2024-02-09,Plymouth,33,No
+2024-02-10,London Waterloo,31,Yes
+2024-02-10,London Paddington,54,Yes
+2024-02-10,London Euston,37,Yes
+2024-02-10,London Victoria,13,Yes
+2024-02-10,London Kings Cross,41,Yes
+2024-02-10,London Liverpool Street,16,Yes
+2024-02-10,London Bridge,53,Yes
+2024-02-10,Manchester Piccadilly,28,Yes
+2024-02-10,Birmingham New Street,25,Yes
+2024-02-10,Edinburgh Waverley,25,Yes
+2024-02-10,Glasgow Central,21,Yes
+2024-02-10,Leeds,57,Yes
+2024-02-10,Bristol Temple Meads,57,Yes
+2024-02-10,Cardiff Central,28,Yes
+2024-02-10,Liverpool Lime Street,35,Yes
+2024-02-10,Newcastle,55,Yes
+2024-02-10,Nottingham,48,Yes
+2024-02-10,Sheffield,17,Yes
+2024-02-10,Southampton Central,59,Yes
+2024-02-10,Reading,59,Yes
+2024-02-10,Brighton,35,Yes
+2024-02-10,York,30,Yes
+2024-02-10,Oxford,21,Yes
+2024-02-10,Cambridge,35,Yes
+2024-02-10,Leicester,46,Yes
+2024-02-10,Norwich,10,Yes
+2024-02-10,Exeter St Davids,57,Yes
+2024-02-10,Plymouth,42,Yes
