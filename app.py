@@ -11,6 +11,9 @@ import os
 from dotenv import load_dotenv
 from datetime import datetime, timedelta  # ⏳ Import for API call timing
 
+# Streamlit command
+st.set_page_config(page_title="Live Train Dashboard", page_icon="🚆", layout="wide")
+
 # Load API keys from .env file
 load_dotenv()
 
