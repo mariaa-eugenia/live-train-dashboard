@@ -7,6 +7,17 @@ import folium
 from streamlit_folium import folium_static
 from streamlit.runtime.scriptrunner import RerunException
 from streamlit.runtime.state.session_state_proxy import SessionState
+import os
+from dotenv import load_dotenv
+
+# Load API keys from .env file
+load_dotenv()
+
+#The keys are in .env file
+APP_ID = os.getenv("APP_ID")
+APP_KEY = os.getenv("APP_KEY")
+WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
+
 
 # ---------------------------
 # 🚆 1. APP CONFIGURATION
