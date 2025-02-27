@@ -11,21 +11,17 @@ import os
 from dotenv import load_dotenv
 from datetime import datetime, timedelta  # ⏳ Import for API call timing
 
-# Streamlit command
+# ✅ This must be the first Streamlit command
 st.set_page_config(page_title="Live Train Dashboard", page_icon="🚆", layout="wide")
 
 # Load API keys from .env file
 load_dotenv()
-
-# The keys are in .env file
 APP_ID = os.getenv("APP_ID")
 APP_KEY = os.getenv("APP_KEY")
 
 # ---------------------------
 # 🚆 1. APP CONFIGURATION
 # ---------------------------
-st.set_page_config(page_title="Live Train Dashboard", page_icon="🚆", layout="wide")
-
 st.title("🚆 Live UK Train Dashboard")
 st.write("🔄 Auto-refreshing every 5 minutes...")
 
@@ -125,17 +121,17 @@ if data:
         trains.append({
             "Time": train["aimed_departure_time"],
             "Destination": train["destination_name"],
-            "Status": status  # ✅ Status Formatting
+            "Status": status
         })
 
     if trains:
         df = pd.DataFrame(trains)
-        df["Time"] = pd.to_datetime(df["Time"], format="%H:%M", errors="coerce").dt.time  # Convert Time to datetime
-        df = df.sort_values(by="Time")  # 🔄 Sort by time
+        df["Time"] = pd.to_datetime(df["Time"], format="%H:%M", errors="coerce").dt.time
+        df = df.sort_values(by="Time")
     else:
         df = pd.DataFrame(columns=["Time", "Destination", "Status"])
 else:
-    df = pd.DataFrame(columns=["Time", "Destination", "Status"])  # Empty DataFrame if API fails
+    df = pd.DataFrame(columns=["Time", "Destination", "Status"])
 
 # ---------------------------
 # 📊 4. DISPLAY TRAIN DATA
@@ -147,16 +143,43 @@ else:
     st.write("❌ No live train data available.")
 
 # ---------------------------
-# 🔄 5. AUTO-REFRESH EVERY 5 MINUTES
+# 📜 5. LOAD HISTORICAL DELAY DATA
+# ---------------------------
+@st.cache_data
+def load_historical_data():
+    return pd.read_csv("historical_delays.csv")
+
+df_history = load_historical_data()
+df_station_history = df_history[df_history["Station"] == station_name]
+
+st.subheader(f"📊 Historical Delay Data for {station_name}")
+st.dataframe(df_station_history, height=300, use_container_width=True)
+
+# ---------------------------
+# 📍 6. LIVE TRAIN MAP
+# ---------------------------
+train_locations = [
+    {"lat": 51.5074, "lon": -0.1278, "station": "London", "status": "On Time"},
+    {"lat": 53.4808, "lon": -2.2426, "station": "Manchester", "status": "Delayed"},
+]
+
+m = folium.Map(location=[53.0, -1.5], zoom_start=6)
+
+for train in train_locations:
+    color = "green" if train["status"] == "On Time" else "red"
+    folium.Marker([train["lat"], train["lon"]], popup=f"{train['station']} ({train['status']})", icon=folium.Icon(color=color)).add_to(m)
+
+st.subheader("📍 Live Train Locations")
+folium_static(m)
+
+# ---------------------------
+# 🔄 7. AUTO-REFRESH EVERY 5 MINUTES
 # ---------------------------
 st.write("🔄 Auto-refreshing every 5 minutes...")
 
 if "last_refresh" not in st.session_state:
     st.session_state["last_refresh"] = time.time()
 
-if time.time() - st.session_state["last_refresh"] > 300:  # 5 minutes
+if time.time() - st.session_state["last_refresh"] > 300:
     st.session_state["last_refresh"] = time.time()
     raise RerunException(SessionState())
-
-
-
