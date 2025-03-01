@@ -79,8 +79,8 @@ if "last_api_call" not in st.session_state:
 def get_live_train_data(station_code):
     now = datetime.now()
 
-    # ✅ Only call the API if the last request was more than 5 minutes ago
-    if st.session_state["last_api_call"] is None or (now - st.session_state["last_api_call"]) > timedelta(minutes=5):
+    # ✅ Only call the API if the last request was more than 10 minutes ago
+    if st.session_state["last_api_call"] is None or (now - st.session_state["last_api_call"]) > timedelta(minutes=10):
         url = f"https://transportapi.com/v3/uk/train/station/{station_code}/live.json"
         params = {
             "app_id": APP_ID,  # ✅ Uses .env variable
@@ -93,16 +93,24 @@ def get_live_train_data(station_code):
 
         if response.status_code == 200:
             data = response.json()
-            st.session_state["train_data"] = data  # ✅ Store API response
-            st.session_state["last_api_call"] = now  # ✅ Update last request time
+            if "departures" in data and "all" in data["departures"]:  # ✅ Ensure valid response
+                st.session_state["train_data"] = data  # ✅ Store API response
+                st.session_state["last_api_call"] = now  # ✅ Update last request time
+                st.session_state["api_limit_exceeded"] = False  # ✅ Reset API limit flag
+            else:
+                st.warning("⚠️ API returned no train data. Keeping cached data.")
+
+        elif "usage limits are exceeded" in response.text:
+            st.warning("⚠️ API limit reached! Using last available data.")
+            st.session_state["api_limit_exceeded"] = True  # ✅ Mark API as exceeded
         else:
-            st.warning("⚠️ Could not fetch train data. Using cached data.")
+            st.error("❌ Failed to fetch live train data. Check API credentials!")
 
     # ✅ Use cached data if available
-    data = st.session_state["train_data"]
+    data = st.session_state.get("train_data", None)  # ✅ Avoid KeyError
     if data:
         trains = []
-        for train in data["departures"]["all"]:
+        for train in data.get("departures", {}).get("all", []):
             status = train["status"]
 
             # 🚀 Make Status More User-Friendly
@@ -134,11 +142,10 @@ def get_live_train_data(station_code):
             return pd.DataFrame(columns=["Time", "Destination", "Status"])  # Empty but with correct columns
     
     else:
-        st.error("⚠️ Failed to fetch live train data. Check API credentials!")
+        st.warning("⚠️ No cached train data available. Please try again later.")
         return pd.DataFrame(columns=["Time", "Destination", "Status"])  # Return empty DataFrame if API fails
 
 df = get_live_train_data(station_code)
-
 
 # ---------------------------
 # 📊 4. DISPLAY TRAIN DATA
