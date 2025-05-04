@@ -22,13 +22,13 @@ WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
 
 
 # ---------------------------
-# 🚆 1. APP CONFIGURATION
+# 1. APP CONFIGURATION
 # ---------------------------
 st.title("🚆 Live UK Train Dashboard")
 st.write("🔄 Auto-refreshing every 5 minutes...")
 
 # ---------------------------
-# 🚉 2. STATION DROPDOWN LIST
+# 2. STATION DROPDOWN LIST
 # ---------------------------
 stations = {
     "London Waterloo": "WAT",
@@ -65,12 +65,12 @@ station_name = st.selectbox("🚉 Select a Station:", list(stations.keys()))
 station_code = stations[station_name]
 
 # ---------------------------
-# 🔄 3. FETCH LIVE TRAIN DATA
+# 3. FETCH LIVE TRAIN DATA
 # ---------------------------
 APP_ID = "3682f223"
 APP_KEY = "9a566235e2c1bc2339d2b235e2fc7307"
 
-# ✅ Initialize session state to store API data
+# Initialize session state to store API data
 if "train_data" not in st.session_state:
     st.session_state["train_data"] = None
 if "last_api_call" not in st.session_state:
@@ -79,12 +79,12 @@ if "last_api_call" not in st.session_state:
 def get_live_train_data(station_code):
     now = datetime.now()
 
-    # ✅ Only call the API if the last request was more than 10 minutes ago
+    # Only call the API if the last request was more than 10 minutes ago
     if st.session_state["last_api_call"] is None or (now - st.session_state["last_api_call"]) > timedelta(minutes=10):
         url = f"https://transportapi.com/v3/uk/train/station/{station_code}/live.json"
         params = {
-            "app_id": APP_ID,  # ✅ Uses .env variable
-            "app_key": APP_KEY,  # ✅ Uses .env variable
+            "app_id": APP_ID,  # Uses .env variable
+            "app_key": APP_KEY,  # Uses .env variable
             "darwin": "false",
             "train_status": "passenger"
         }
@@ -93,27 +93,27 @@ def get_live_train_data(station_code):
 
         if response.status_code == 200:
             data = response.json()
-            if "departures" in data and "all" in data["departures"]:  # ✅ Ensure valid response
-                st.session_state["train_data"] = data  # ✅ Store API response
-                st.session_state["last_api_call"] = now  # ✅ Update last request time
-                st.session_state["api_limit_exceeded"] = False  # ✅ Reset API limit flag
+            if "departures" in data and "all" in data["departures"]:  # Ensure valid response
+                st.session_state["train_data"] = data  # Store API response
+                st.session_state["last_api_call"] = now  # Update last request time
+                st.session_state["api_limit_exceeded"] = False  # Reset API limit flag
             else:
                 st.warning("⚠️ API returned no train data. Keeping cached data.")
 
         elif "usage limits are exceeded" in response.text:
             st.warning("⚠️ API limit reached! Using last available data.")
-            st.session_state["api_limit_exceeded"] = True  # ✅ Mark API as exceeded
+            st.session_state["api_limit_exceeded"] = True  # Mark API as exceeded
         else:
             st.error("❌ Failed to fetch live train data. Check API credentials!")
 
-    # ✅ Use cached data if available
-    data = st.session_state.get("train_data", None)  # ✅ Avoid KeyError
+    # Use cached data if available
+    data = st.session_state.get("train_data", None)  # Avoid KeyError
     if data:
         trains = []
         for train in data.get("departures", {}).get("all", []):
             status = train["status"]
 
-            # 🚀 Make Status More User-Friendly
+            # Make Status More User-Friendly
             if status.lower() == "on time":
                 status = "✅ On Time"
             elif "delayed" in status.lower():
@@ -130,10 +130,10 @@ def get_live_train_data(station_code):
             trains.append({
                 "Time": train["aimed_departure_time"],
                 "Destination": train["destination_name"],
-                "Status": status  # ✅ Status Formatting
+                "Status": status  # Status Formatting
             })
 
-        if trains:  # ✅ Only process if there is data
+        if trains:  # Only process if there is data
             df = pd.DataFrame(trains)
             df["Time"] = pd.to_datetime(df["Time"], format="%H:%M", errors="coerce").dt.time  # Handle conversion errors
             df = df.sort_values(by="Time")  # 🔄 Sort by time
@@ -148,7 +148,7 @@ def get_live_train_data(station_code):
 df = get_live_train_data(station_code)
 
 # ---------------------------
-# 📊 4. DISPLAY TRAIN DATA
+# 4. DISPLAY TRAIN DATA
 # ---------------------------
 if not df.empty:
     st.subheader(f"🚆 Live Departures from {station_name} ({station_code})")
@@ -157,7 +157,7 @@ else:
     st.write("❌ No live train data available.")
 
 # ---------------------------
-# 📜 5. LOAD HISTORICAL DELAY DATA
+# 5. LOAD HISTORICAL DELAY DATA
 # ---------------------------
 @st.cache_data
 def load_historical_data():
@@ -173,7 +173,7 @@ st.subheader(f"📊 Historical Delay Data for {station_name}")
 st.dataframe(df_station_history, height=300, use_container_width=True)
 
 # ---------------------------
-# 📈 6. PLOT HISTORICAL DELAY TRENDS
+# 6. PLOT HISTORICAL DELAY TRENDS
 # ---------------------------
 fig, ax = plt.subplots(figsize=(7, 3))  # Smaller figure
 
@@ -203,26 +203,26 @@ ax.legend()  # Add legend
 st.pyplot(fig)
 
 # ---------------------------
-# 🎉 7. IMPROVED EVENT DAY VS. REGULAR DAY COMPARISON
+# 7. EVENT DAY VS. REGULAR DAY COMPARISON
 # ---------------------------
 
-# ✅ Extract delay rates from historical data
+# Extract delay rates from historical data
 regular_delays = df_station_history[df_station_history["Event Day"] == "No"]["Delay Rate (%)"]
 event_delays = df_station_history[df_station_history["Event Day"] == "Yes"]["Delay Rate (%)"]
 
-# ✅ Compute average delay rates, ensuring NaN values don't break calculations
+# Compute average delay rates, ensuring NaN values don't break calculations
 regular_delay = regular_delays.mean(skipna=True) if not regular_delays.empty else 0
 event_delay = event_delays.mean(skipna=True) if not event_delays.empty else 0
 
-# ✅ Round final values to 2 decimal places
+# Round final values to 2 decimal places
 regular_delay = round(regular_delay, 2)
 event_delay = round(event_delay, 2)
 
-# ✅ Calculate percentage difference
+# Calculate percentage difference
 delay_diff = event_delay - regular_delay
 delay_diff_rounded = round(delay_diff, 2)
 
-# 🎉 Delay Comparison Section
+# Delay Comparison Section
 st.subheader("🎉 Delay Comparison: Event Days vs. Regular Days")
 
 col1, col2 = st.columns(2)
@@ -243,7 +243,7 @@ with col2:
     else:
         st.markdown("⚖️ **No significant difference**", unsafe_allow_html=True)
 
-# 🚨 Show alerts only for large differences
+# Show alerts only for large differences
 if delay_diff > 1:
     st.warning("⚠️ Event days have noticeably higher delay rates!")
 elif delay_diff < -1:
@@ -251,7 +251,7 @@ elif delay_diff < -1:
 
 
 # ---------------------------
-# 🗺️ 8. LIVE TRAIN MAP
+# 8. LIVE TRAIN MAP
 # ---------------------------
 train_locations = [
     {"lat": 51.5074, "lon": -0.1278, "station": "London", "status": "On Time"},
@@ -269,7 +269,7 @@ folium_static(m)
 
 
 # ---------------------------
-# 🔄 9. AUTO-REFRESH EVERY 5 MINUTES
+# 9. AUTO-REFRESH EVERY 5 MINUTES
 # ---------------------------
 st.write("🔄 Auto-refreshing every 5 minutes...")
 
